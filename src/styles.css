@@ -1,0 +1,125 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.logo {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #336699;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  border: 2px solid #336699;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.password {
+  font-size: 28px;
+  margin-right: 10px;
+  color: #336699;
+}
+
+.cpy-btn {
+  padding: 12px 16px;
+  background-color: #336699;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cpy-btn:hover {
+  background-color: #225577;
+}
+
+.password-length {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-right: 10px;
+  color: #336699;
+  font-size: 18px;
+}
+
+.range-wrapper {
+  flex-grow: 1;
+}
+
+.range-label {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #336699;
+  font-size: 18px;
+}
+
+.conditions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.conditions div {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  margin-left: 5px;
+  color: #336699;
+  font-size: 18px;
+}
+
+button {
+  padding: 12px 16px;
+  background-color: #336699;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #225577;
+}
+
+.error-Message {
+  color: #ff0000 !important;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.number-input {
+  /* Add some styling to the number input */
+  width: 60px;
+  height: 30px;
+  border: 1px solid #336699;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 16px;
+}
